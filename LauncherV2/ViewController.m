@@ -24,4 +24,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+- (IBAction)album:(id)sender {
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    [picker setSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+    [self presentViewController:picker animated:YES completion:NULL];
+}
+
+
+- (IBAction)missions:(id)sender {
+}
+
+- (IBAction)Photos:(id)sender {
+    
+}
+
+
+- (IBAction)exit:(id)sender {
+    exit(0);
+}
+
 @end
