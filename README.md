@@ -1,3 +1,3 @@
 # CodeCampsCocoa
-Debut De Projet 
+Debut de Projet 
 Interface utilisateur
